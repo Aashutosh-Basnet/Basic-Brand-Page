@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 90vw;
+}
+
+.navbar p {
+  font-style: italic;
+  font-size: large;
+  font-weight: 800;
+  user-select: none;
+}
+
+.lists {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.lists li::selection {
+  color: gold;
+}
+
+.login_button {
+  background-color: rgb(207, 33, 33);
+  font-weight: 500;
+  border-radius: 15%;
+  border: none;
+  padding: 6px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.login_button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 0, 0);
+  transform: scale(1.15);
+}
