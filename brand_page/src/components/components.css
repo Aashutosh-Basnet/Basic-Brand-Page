@@ -13,6 +13,7 @@
   margin: 10px auto;
   padding: 10px;
   max-width: 90vw;
+  height: 75px;
 }
 
 .navbar p {
@@ -35,7 +36,8 @@
 .login_button {
   background-color: rgb(207, 33, 33);
   font-weight: 500;
-  border-radius: 15%;
+  height: 30px;
+  border-radius: 5px;
   border: none;
   padding: 6px;
   transition: transform 0.3s ease-in-out;
@@ -44,5 +46,51 @@
 .login_button:hover {
   cursor: pointer;
   background-color: rgb(255, 0, 0);
+  transform: scale(1.15);
+}
+
+.Hero {
+  display: flex;
+  height: calc(100vh-75px);
+  margin: auto 100px;
+}
+
+.Hero h1 {
+  font-weight: 750;
+  line-height: 102px;
+  font-size: 108px;
+  letter-spacing: -4px;
+}
+
+.Hero p {
+  font-weight: 500;
+}
+
+.hero-btn {
+  display: flex;
+  gap: 40px;
+}
+
+.category {
+  background: transparent;
+  border: 1px solid black;
+}
+
+.category:hover {
+  background-color: white;
+}
+
+.brand-icons {
+  display: flex;
+  gap: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.shopping {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.brand-icons img:hover {
   transform: scale(1.15);
 }
